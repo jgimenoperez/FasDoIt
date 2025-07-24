@@ -5,25 +5,28 @@ const services = [
   {
     title: "Paneles de Aluminio Tipo Cerámico",
     description: "Sin necesidad de picar azulejos, sin escombros ni polvo, acabado tipo porcelánico en pocas horas. Ideal para baños, cocinas y salones.",
-    imageUrl: "https://images.unsplash.com/photo-1617103996237-4384e8e792b0?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imageUrl: "https://plus.unsplash.com/premium_photo-1683121248255-9816c1cef6b2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     target: "Baños, cocinas y salones"
   },
   {
     title: "Alicatado Convencional",
     description: "Colocación profesional de azulejos con nivelación perfecta y un acabado rectificado y elegante. Para reformas completas o parciales.",
-    imageUrl: "https://images.unsplash.com/photo-1560440021-33f9b867899d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imageUrl: "https://plus.unsplash.com/premium_photo-1682973057048-c4f8eeb7e19c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    // imageUrl: "https://images.unsplash.com/photo-1560440021-33f9b867899d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     target: "Reformas completas"
   },
   {
     title: "Colocación de Pavimentos",
     description: "Instalación limpia y precisa de pavimentos para interior y exterior, en todos los formatos, incluyendo imitación madera.",
-    imageUrl: "https://images.unsplash.com/photo-1599410861615-184090d0e230?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imageUrl: "https://plus.unsplash.com/premium_photo-1676823553207-758c7a66e9bb?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     target: "Salones, cocinas, terrazas"
   },
   {
     title: "Baños Prefabricados",
     description: "Soluciones modulares para ferias y promociones, con instalación completa de alicatado y pavimento. Ideal para hoteles y espacios temporales.",
-    imageUrl: "https://images.unsplash.com/photo-1616046229478-9901c5536a45?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imageUrl: "https://media.istockphoto.com/id/1291917591/es/foto/foto-de-stock-de-modern-bathroom-interior.jpg?s=2048x2048&w=is&k=20&c=KBsfNkie9KMUjo4sXuxBjY4W7OXBM8NCSgxjEIgqQ4A=",
+    // imageUrl: "https://images.unsplash.com/photo-1616046229478-9901c5536a45?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+
     target: "Hoteles, eventos"
   }
 ];
