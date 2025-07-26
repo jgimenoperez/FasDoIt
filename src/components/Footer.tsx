@@ -6,9 +6,19 @@ export function Footer() {
     <footer className="bg-gray-800 text-white">
       <div className="container mx-auto px-4 py-12">
         <div className="grid md:grid-cols-3 gap-8 text-center md:text-left">
-          <div>
-            <h3 className="text-xl font-bold uppercase mb-4">FASTDOIT</h3>
-            <p className="text-gray-400">Espacios renovados. <br/>Sin obras, sin esperas.</p>
+          <div className="flex flex-col items-center md:items-start">
+            <div className="flex items-center gap-3 mb-4">
+              <div className="flex gap-1">
+                <div className="flex flex-col gap-1">
+                  <div className="w-4 h-4 bg-white rounded-sm"></div>
+                  <div className="w-4 h-4 bg-white rounded-sm"></div>
+                </div>
+                <div className="w-4 h-8 bg-white rounded-sm"></div>
+              </div>
+              <h3 className="text-xl font-bold uppercase text-white">FASTDOIT</h3>
+            </div>
+            <p className="text-gray-400">Espacios renovados.</p>
+            <p className="text-gray-400">Sin obras, sin esperas.</p>
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-4">Navegación</h3>
