@@ -26,8 +26,11 @@ export function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-sm shadow-md">
       <div className="container mx-auto px-4 flex justify-between items-center h-20">
-        <a href="#inicio" onClick={handleScroll} className="text-2xl font-bold text-gray-800 uppercase">
-          FASTDOIT
+        <a href="#inicio" onClick={handleScroll} className="flex flex-col">
+          <span className="text-2xl font-bold text-gray-800 uppercase">FASTDOIT</span>
+          <span className="text-xs text-gray-600 -mt-1">Espacios renovados.</span>
+          <span className="text-xs text-gray-600 -mt-1">Sin obras, sin esperas.</span>
+
         </a>
         <nav className="hidden md:flex space-x-8">
           {navLinks.map((link) => (
