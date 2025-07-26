@@ -49,8 +49,11 @@ export function AboutSection() {
             </ul>
           </div>
            <div className="prose max-w-none">
-            <p>Tras años de experiencia en el sector de la construcción y el montaje técnico, vimos que la mayoría de las reformas eran lentas, sucias y llenas de problemas para el cliente. Por eso decidimos hacerlo diferente.</p>
-            <p>Formamos un equipo propio de instaladores especializados en panelado, alicatado y pavimento, con sistemas que permiten transformar espacios en tiempo récord y sin las molestias de una obra tradicional.</p>
+            <p>En FASTDOIT somos especialistas en <strong>reformas limpias, eficientes y de alta precisión.</strong></p>
+            <p>Nuestro equipo está formado por profesionales con una sólida trayectoria en <strong>alicatado, solado e instalación de Onwall</strong>.</p>
+            <p>Ofrecemos un servicio técnico y profesional que se adapta a las necesidades de cada cliente, con <strong>rapidez, limpieza y compromiso</strong>.</p>
+            <p>Trabajamos para particulares, hoteles, promotores y gestores de viviendas de alquiler, siempre con <strong>resultados garantizados</strong>.</p>
+
              <p><strong>FASTDOIT no vende solo reformas. Vendemos comodidad, confianza y un resultado impecable.</strong></p>
           </div>
         </div>

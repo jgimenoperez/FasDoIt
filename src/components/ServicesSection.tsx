@@ -9,8 +9,8 @@ const services = [
     target: "Baños, cocinas y salones"
   },
   {
-    title: "Alicatado Convencional",
-    description: "Colocación profesional de azulejos con nivelación perfecta y un acabado rectificado y elegante. Para reformas completas o parciales.",
+    title: "Alicatado y solado profesional",
+    description: "Revestimiento de suelos y paredes con cerámica, porcelánico, piedra natural y otros materiales.Trabajos limpios, precisos y duraderos en interiores y exteriores.",
     imageUrl: "https://plus.unsplash.com/premium_photo-1682973057048-c4f8eeb7e19c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     // imageUrl: "https://images.unsplash.com/photo-1560440021-33f9b867899d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     target: "Reformas completas"

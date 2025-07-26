@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Zap, Sparkles, Layers, ClipboardCheck } from "lucide-react";
@@ -29,14 +31,26 @@ export default function Home() {
             </h1>
           </div>
           <p className="text-xl md:text-2xl mt-4 text-gray-200 scroll-fade-in scroll-delay-100">
-            Espacios renovados. Sin obras, sin esperas.
+            Reformas rápidas, limpias y profesionales.
           </p>
+
           <p className="mt-6 max-w-2xl text-base md:text-lg text-gray-300 scroll-fade-in scroll-delay-200">
-            Transformamos tu espacio con un enfoque revolucionario: rápido, limpio y sin las molestias de las reformas tradicionales. Calidad y diseño sin complicaciones.
+            En <strong>FASTDOIT</strong> transformamos tu espacio en tiempo récord, sin escombros ni molestias.
+            <br />  Especialistas en alicatado, solado e instalación de Onwall
           </p>
-          <Button className="mt-8 bg-primary hover:bg-primary/90 text-primary-foreground font-bold py-3 px-8 rounded-lg text-lg transition-transform transform hover:scale-105 scroll-scale scroll-delay-300">
-            Solicita tu presupuesto
-          </Button>
+
+          <div className="mt-8 flex gap-4 flex-col sm:flex-row">
+            <Button
+              className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold py-3 px-8 rounded-lg text-lg transition-transform transform hover:scale-105 scroll-scale scroll-delay-300">
+              Solicita tu presupuesto
+            </Button>
+            <Button
+              onClick={() => document.getElementById('proyectos')?.scrollIntoView({ behavior: 'smooth' })}
+              className="bg-secondary hover:bg-secondary/90 text-secondary-foreground font-bold py-3 px-8 rounded-lg text-lg transition-transform transform hover:scale-105 scroll-scale scroll-delay-300">
+              Ver trabajos realizados
+            </Button>
+
+          </div>
           <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 w-full max-w-4xl">
             <div className="flex flex-col items-center p-6 bg-white/10 backdrop-blur-sm rounded-xl border border-white/20 scroll-fade-in scroll-delay-100">
               <Zap className="h-10 w-10 text-gray-200" />
