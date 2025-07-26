@@ -26,11 +26,19 @@ export function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-sm shadow-md">
       <div className="container mx-auto px-4 flex justify-between items-center h-20">
-        <a href="#inicio" onClick={handleScroll} className="flex flex-col">
-          <span className="text-2xl font-bold text-gray-800 uppercase">FASTDOIT</span>
-          <span className="text-xs text-gray-600 -mt-1">Espacios renovados.</span>
-          <span className="text-xs text-gray-600 -mt-1">Sin obras, sin esperas.</span>
-
+        <a href="#inicio" onClick={handleScroll} className="flex items-center gap-3">
+          <div className="flex gap-1">
+            <div className="flex flex-col gap-1">
+              <div className="w-4 h-4 bg-gray-700 rounded-sm"></div>
+              <div className="w-4 h-4 bg-gray-700 rounded-sm"></div>
+            </div>
+            <div className="w-4 h-8 bg-gray-700 rounded-sm"></div>
+          </div>
+          <div className="flex flex-col">
+            <span className="text-2xl font-bold text-gray-800 uppercase">FASTDOIT</span>
+            <span className="text-xs text-gray-600 -mt-1">Espacios renovados.</span>
+            <span className="text-xs text-gray-600 -mt-1">Sin obras, sin esperas.</span>
+          </div>
         </a>
         <nav className="hidden md:flex space-x-8">
           {navLinks.map((link) => (
