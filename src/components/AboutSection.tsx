@@ -10,12 +10,12 @@ const problems = [
 ];
 
 const solutions = [
-    "Sin obra sucia ni escombros",
-    "Rapidez real: reformas en horas o días",
-    "Limpieza garantizada",
-    "Equipo propio especializado",
-    "Puntualidad y compromiso",
-    "Presupuesto claro en menos de 24h",
+    "Reformas exprés",
+    "Trabajos sin polvo ni escombros",
+    "Personal formado y uniformado",
+    "Presupuestos claros y facturación profesional",
+    "Entregas en plazo, sin retrasos",
+    "Trato directo, sin intermediarios",
 ];
 
 const philosophyPillars = [
@@ -59,9 +59,9 @@ export function AboutSection() {
         </div>
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-4xl font-bold mb-4">Por qué elegirnos</h2>
-          <p className="text-xl text-muted-foreground mb-8">
+          {/* <p className="text-xl text-muted-foreground mb-8">
             FASTDOIT revoluciona las reformas con soluciones limpias, rápidas y eficientes.
-          </p>
+          </p> */}
         </div>
         <div className="grid md:grid-cols-2 gap-8">
           <div className="bg-red-50 p-8 rounded-lg">
