@@ -16,9 +16,18 @@ export default function Home() {
       <div id="inicio" className="relative bg-cover bg-center text-white pt-20" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1600585152220-90363fe7e115?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')" }}>
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <main className="relative container mx-auto px-4 py-20 md:py-32 flex flex-col items-center text-center">
-          <h1 className="text-5xl md:text-7xl font-bold text-white uppercase tracking-wider scroll-fade-in">
-            FASTDOIT
-          </h1>
+          <div className="flex items-center gap-6 scroll-fade-in relative z-10">
+            <div className="flex gap-2">
+              <div className="flex flex-col gap-2">
+                <div className="w-8 h-8 bg-white rounded-sm shadow-2xl"></div>
+                <div className="w-8 h-8 bg-white rounded-sm shadow-2xl"></div>
+              </div>
+              <div className="w-8 h-16 bg-white rounded-sm shadow-2xl"></div>
+            </div>
+            <h1 className="text-5xl md:text-7xl font-bold text-white uppercase tracking-wider drop-shadow-2xl">
+              FASTDOIT
+            </h1>
+          </div>
           <p className="text-xl md:text-2xl mt-4 text-gray-200 scroll-fade-in scroll-delay-100">
             Espacios renovados. Sin obras, sin esperas.
           </p>
