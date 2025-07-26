@@ -12,7 +12,12 @@ export function ContactSection() {
   return (
     <section id="contacto" className="py-20 bg-gray-100">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-12">Solicita tu Presupuesto</h2>
+        <h2 className="text-4xl font-bold text-center mb-6">Solicita tu Presupuesto</h2>
+        <p className="text-center text-gray-600 max-w-3xl mx-auto mb-12">
+          ¿Tienes dudas? ¿Quieres más información?
+          <br />
+          Contáctanos por WhatsApp o rellena el formulario. Estaremos encantados de ayudarte.
+        </p>
         <div className="grid md:grid-cols-2 gap-16 items-start">
           <div className="bg-white p-8 rounded-lg shadow-lg">
             <h3 className="text-2xl font-bold mb-6">Nuestros Servicios</h3>
