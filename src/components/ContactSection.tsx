@@ -2,10 +2,10 @@ import React from "react";
 import { Button } from "@/components/ui/button";
 
 const services = [
-  { id: "paneles", label: "Paneles de Aluminio Tipo Cerámico" },
-  { id: "alicatado", label: "Alicatado Convencional" },
-  { id: "pavimentos", label: "Colocación de Pavimentos" },
-  { id: "prefabricados", label: "Baños Prefabricados" },
+  { id: "alicatado", label: "Alicatado y solado profesional" },
+  { id: "paneles", label: "Instalación de Onwall" },
+  { id: "pavimentos", label: " Reformas para hoteles, alojamientos y pisos de alquiler" },
+  { id: "prefabricados", label: "Showrooms y Stands" },
 ];
 
 export function ContactSection() {

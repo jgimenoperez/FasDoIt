@@ -57,7 +57,12 @@ export function AboutSection() {
              <p><strong>FASTDOIT no vende solo reformas. Vendemos comodidad, confianza y un resultado impecable.</strong></p>
           </div>
         </div>
-
+        <div className="text-center max-w-3xl mx-auto">
+          <h2 className="text-4xl font-bold mb-4">Por qué elegirnos</h2>
+          <p className="text-xl text-muted-foreground mb-8">
+            FASTDOIT revoluciona las reformas con soluciones limpias, rápidas y eficientes.
+          </p>
+        </div>
         <div className="grid md:grid-cols-2 gap-8">
           <div className="bg-red-50 p-8 rounded-lg">
             <h3 className="text-2xl font-bold mb-4 text-red-800">Problemas que Resolvemos</h3>

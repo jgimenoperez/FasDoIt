@@ -3,27 +3,27 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const services = [
   {
-    title: "Paneles de Aluminio Tipo Cerámico",
-    description: "Sin necesidad de picar azulejos, sin escombros ni polvo, acabado tipo porcelánico en pocas horas. Ideal para baños, cocinas y salones.",
-    imageUrl: "https://plus.unsplash.com/premium_photo-1683121248255-9816c1cef6b2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    target: "Baños, cocinas y salones"
-  },
-  {
     title: "Alicatado y solado profesional",
-    description: "Revestimiento de suelos y paredes con cerámica, porcelánico, piedra natural y otros materiales.Trabajos limpios, precisos y duraderos en interiores y exteriores.",
+    description: "Revestimiento de suelos y paredes con cerámica, porcelánico, piedra natural y otros materiales.\nTrabajos limpios, precisos y duraderos en interiores y exteriores.",     
     imageUrl: "https://plus.unsplash.com/premium_photo-1682973057048-c4f8eeb7e19c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     // imageUrl: "https://images.unsplash.com/photo-1560440021-33f9b867899d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     target: "Reformas completas"
   },
   {
-    title: "Colocación de Pavimentos",
-    description: "Instalación limpia y precisa de pavimentos para interior y exterior, en todos los formatos, incluyendo imitación madera.",
+    title: "Instalación de Onwall",
+    description: "Renovamos baños y cocinas en medio día, instalando Onwall directamente sobre el azulejo existente.\nSin demoler, sin polvo, sin obra molesta.",
+    imageUrl: "https://plus.unsplash.com/premium_photo-1683121248255-9816c1cef6b2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    target: "Baños, cocinas y salones"
+  },
+  {
+    title: "Reformas para hoteles, alojamientos y pisos de alquiler",
+    description: "Reformas rápidas por estancias o fases, sin interrumpir la actividad.\nEspecialmente útil para hoteles, apartamentos turísticos o pisos en alquiler que necesitan ponerse en marcha sin obras prolongadas.\nResultado final impecable, limpio y entregado en plazo.",
     imageUrl: "https://plus.unsplash.com/premium_photo-1676823553207-758c7a66e9bb?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     target: "Salones, cocinas, terrazas"
   },
   {
-    title: "Baños Prefabricados",
-    description: "Soluciones modulares para ferias y promociones, con instalación completa de alicatado y pavimento. Ideal para hoteles y espacios temporales.",
+    title: "Showrooms y Stands",
+    description: "Diseño e instalación de espacios expositivos para ferias, distribuidores o marcas de cerámica, cocina o mobiliario.\nAcabados de alto impacto visual, instalación rápida y sin obras molestas. Ideal para tiendas y eventos.",
     imageUrl: "https://media.istockphoto.com/id/1291917591/es/foto/foto-de-stock-de-modern-bathroom-interior.jpg?s=2048x2048&w=is&k=20&c=KBsfNkie9KMUjo4sXuxBjY4W7OXBM8NCSgxjEIgqQ4A=",
     // imageUrl: "https://images.unsplash.com/photo-1616046229478-9901c5536a45?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 
@@ -44,7 +44,7 @@ export function ServicesSection() {
                 <CardTitle className="text-xl">{service.title}</CardTitle>
               </CardHeader>
               <CardContent className="flex-grow">
-                <p className="text-muted-foreground">{service.description}</p>
+                <p className="text-muted-foreground" style ={{whiteSpace: "pre-line"}}  >{service.description}</p>
               </CardContent>
             </Card>
           ))}
