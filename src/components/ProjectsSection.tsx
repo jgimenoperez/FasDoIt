@@ -74,7 +74,12 @@ export function ProjectsSection() {
   return (
     <section id="proyectos" className="py-20 bg-gray-100">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-12">Proyectos Realizados</h2>
+        <h2 className="text-4xl font-bold text-center mb-6">Proyectos Realizados</h2>
+        <p className="text-center text-gray-600 max-w-4xl mx-auto mb-12">
+          Te mostramos una selección de nuestros trabajos más representativos, incluyendo reformas de baños con instalación de Onwall, cocinas alicatadas y solados interiores y exteriores.
+          <br />
+          Cada imagen refleja nuestro compromiso con el acabado, la limpieza y los tiempos de entrega.
+        </p>
         <div className="flex justify-center flex-wrap gap-2 mb-12">
           {categories.map(category => (
             <Button
